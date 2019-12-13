@@ -1,0 +1,236 @@
+                                                 /*kopieren ist stehlen*/
+                                                 
+                                                 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+                                                 body {
+                                                     color: #555;
+                                                     margin: 0px;
+                                                     font-family: 'Montserrat', sans-serif;
+                                                 }
+                                                 
+                                                 #desktop {
+                                                     display: flex;
+                                                     justify-content: center;
+                                                     padding-right: 20px;
+                                                 }
+                                                 
+                                                 .topimg {
+                                                     width: 100px;
+                                                     height: auto;
+                                                     padding: 0 5px 0 50px;
+                                                     margin: 0 0 50px 0;
+                                                 }
+                                                 
+                                                 .logo {
+                                                     width: 100px;
+                                                     height: auto;
+                                                     padding: 30px 5px 0 0;
+                                                 }
+                                                 
+                                                 .postimg {
+                                                     width: 150px;
+                                                     height: auto;
+                                                     padding: 0 20px 0 0;
+                                                     float: left;
+                                                 }
+                                                 
+                                                 h1,
+                                                 h2,
+                                                 h3,
+                                                 h4 {
+                                                     color: #ff00ea
+                                                 }
+                                                 
+                                                 p {
+                                                     line-height: 1.5;
+                                                 }
+                                                 
+                                                 .post {
+                                                     max-width: 800px;
+                                                     margin: 0 auto;
+                                                     padding: 40px 0 0 0;
+                                                     border-bottom: 1px dotted #555;
+                                                     text-align: justify;
+                                                 }
+                                                 
+                                                 .about {
+                                                     max-width: 800px;
+                                                     margin: 0 0 0;
+                                                     padding: 60px 0px 10px;
+                                                 }
+                                                 
+                                                 .icons {
+                                                     height: 50px;
+                                                     justify-content: center;
+                                                 }
+                                                 
+                                                 .post-date {
+                                                     color: #555;
+                                                     font-size: 12px;
+                                                     font-weight: lighter;
+                                                     text-transform: uppercase;
+                                                     letter-spacing: 0.1em;
+                                                 }
+                                                 
+                                                 .post-content {
+                                                     font-size: 15px;
+                                                 }
+                                                 
+                                                 #header {
+                                                     background-color: #ff00ea;
+                                                     height: 150px;
+                                                     line-height: 150px;
+                                                 }
+                                                 
+                                                 .container {
+                                                     max-width: 600px;
+                                                     margin: 0 auto;
+                                                     margin-left: 20px;
+                                                 }
+                                                 
+                                                 #footer {
+                                                     background-color: #2f2f2f;
+                                                     margin-top: 10px;
+                                                 }
+                                                 
+                                                 #columnone {
+                                                     display: inline-block;
+                                                     vertical-align: top;
+                                                     padding-left: 20px;
+                                                 }
+                                                 
+                                                 #topanker {
+                                                     vertical-align: middle;
+                                                     font-size: 12px;
+                                                     font-weight: bold;
+                                                     font-style: normal;
+                                                     display: flex;
+                                                     justify-content: center;
+                                                     padding-top: 20px;
+                                                 }
+                                                 
+                                                 #columntwo {
+                                                     display: inline-block;
+                                                     vertical-align: top;
+                                                     font-size: 8px;
+                                                     font-style: unset;
+                                                     padding-left: 20px;
+                                                 }
+                                                 
+                                                 #footer h4 {
+                                                     color: white;
+                                                     text-transform: uppercase;
+                                                     letter-spacing: 0.1em;
+                                                 }
+                                                 
+                                                 #footer p {
+                                                     color: white;
+                                                     padding: 0 0 12px 0;
+                                                 }
+                                                 
+                                                 a {
+                                                     color: #ff00ea;
+                                                     text-decoration: none;
+                                                 }
+                                                 
+                                                 a:hover {
+                                                     color: rgb(0, 0, 0);
+                                                 }
+                                                 /* skillbar */
+                                                 
+                                                 .skillbar {
+                                                     position: relative;
+                                                     display: block;
+                                                     margin-bottom: 15px;
+                                                     width: 100%;
+                                                     background: #eee;
+                                                     height: 35px;
+                                                     border-radius: 3px;
+                                                     -moz-border-radius: 3px;
+                                                     -webkit-border-radius: 3px;
+                                                     -webkit-transition: 0.4s linear;
+                                                     -moz-transition: 0.4s linear;
+                                                     -ms-transition: 0.4s linear;
+                                                     -o-transition: 0.4s linear;
+                                                     transition: 0.4s linear;
+                                                     -webkit-transition-property: width, background-color;
+                                                     -moz-transition-property: width, background-color;
+                                                     -ms-transition-property: width, background-color;
+                                                     -o-transition-property: width, background-color;
+                                                     transition-property: width, background-color;
+                                                 }
+                                                 
+                                                 .skillbar-title {
+                                                     position: absolute;
+                                                     top: 0;
+                                                     left: 0;
+                                                     font-weight: bold;
+                                                     font-size: 13px;
+                                                     color: #fff;
+                                                     background: #6adcfa;
+                                                     -webkit-border-top-left-radius: 3px;
+                                                     -webkit-border-bottom-left-radius: 4px;
+                                                     -moz-border-radius-topleft: 3px;
+                                                     -moz-border-radius-bottomleft: 3px;
+                                                     border-top-left-radius: 3px;
+                                                     border-bottom-left-radius: 3px;
+                                                 }
+                                                 
+                                                 .skillbar-title span {
+                                                     display: block;
+                                                     background: rgba(0, 0, 0, 0.1);
+                                                     padding: 0 20px;
+                                                     height: 35px;
+                                                     line-height: 35px;
+                                                     -webkit-border-top-left-radius: 3px;
+                                                     -webkit-border-bottom-left-radius: 3px;
+                                                     -moz-border-radius-topleft: 3px;
+                                                     -moz-border-radius-bottomleft: 3px;
+                                                     border-top-left-radius: 3px;
+                                                     border-bottom-left-radius: 3px;
+                                                 }
+                                                 
+                                                 .skillbar-bar {
+                                                     height: 35px;
+                                                     width: 0px;
+                                                     background: #6adcfa;
+                                                     border-radius: 3px;
+                                                     -moz-border-radius: 3px;
+                                                     -webkit-border-radius: 3px;
+                                                 }
+                                                 
+                                                 .skill-bar-percent {
+                                                     position: absolute;
+                                                     right: 10px;
+                                                     top: 0;
+                                                     font-size: 11px;
+                                                     height: 35px;
+                                                     line-height: 35px;
+                                                     color: #444;
+                                                     color: rgba(0, 0, 0, 0.4);
+                                                 }
+                                                 
+                                                 @media only screen and (max-device-width: 480px) {
+                                                     /* img {
+                                                         width: 150px;
+                                                         height: auto;
+                                                         padding-left: 5px;
+                                                     } */
+                                                     .about-author {
+                                                         display: grid;
+                                                         justify-content: center;
+                                                         align-items: center;
+                                                         padding: 0 20px 0 0;
+                                                     }
+                                                     #logo {
+                                                         padding-top: 20px;
+                                                         width: auto;
+                                                         height: 100px;
+                                                         display: flex;
+                                                     }
+                                                     #header {
+                                                         display: grid;
+                                                         justify-content: center;
+                                                         align-items: center;
+                                                         padding: 0 20px 20px 0;
+                                                     }
+                                                 }
