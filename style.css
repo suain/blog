@@ -16,7 +16,6 @@
                                                  .topimg {
                                                      width: 100px;
                                                      height: auto;
-                                                     padding: 0 5px 0 50px;
                                                      margin: 0 0 50px 0;
                                                  }
                                                  
@@ -216,11 +215,16 @@
                                                  }
                                                  
                                                  @media only screen and (max-device-width: 480px) {
-                                                     /* img {
-                                                         width: 150px;
-                                                         height: auto;
-                                                         padding-left: 5px;
-                                                     } */
+                                                     h1,
+                                                     h2,
+                                                     h3,
+                                                     h4 {
+                                                         color: #ff00ea;
+                                                         text-align: center;
+                                                     }
+                                                     .post-date {
+                                                         text-align: center;
+                                                     }
                                                      .about-author {
                                                          display: grid;
                                                          justify-content: center;
@@ -242,10 +246,25 @@
                                                      .postimg {
                                                          width: 200px;
                                                          height: auto;
-                                                         padding: 0 20px 0 0;
                                                          float: none;
                                                          display: block;
                                                          margin-left: auto;
-                                                         margin-right: auto
+                                                         margin-right: auto;
+                                                     }
+                                                     #columnone {
+                                                         display: block;
+                                                         vertical-align: top;
+                                                         justify-content: center;
+                                                         margin-left: auto;
+                                                         margin-right: auto;
+                                                     }
+                                                     #columntwo {
+                                                         display: block;
+                                                         vertical-align: top;
+                                                         font-size: 8px;
+                                                         font-style: unset;
+                                                         justify-content: center;
+                                                         margin-left: auto;
+                                                         margin-right: auto;
                                                      }
                                                  }
