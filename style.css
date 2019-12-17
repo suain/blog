@@ -33,8 +33,8 @@
                                                  }
                                                  
                                                  .postphoto {
-                                                     width: auto;
-                                                     height: 300px;
+                                                     width: 600px;
+                                                     height: auto;
                                                      padding: 0 20px 0 0;
                                                  }
                                                  
@@ -42,7 +42,8 @@
                                                  h2,
                                                  h3,
                                                  h4 {
-                                                     color: #ff00ea
+                                                     color: #ff00ea;
+                                                     text-align: left;
                                                  }
                                                  
                                                  p {
@@ -50,7 +51,7 @@
                                                  }
                                                  
                                                  .post {
-                                                     max-width: 800px;
+                                                     max-width: 600px;
                                                      margin: 0 auto;
                                                      padding: 40px 0 0 0;
                                                      border-bottom: 1px dotted #555;
@@ -58,14 +59,13 @@
                                                  }
                                                  
                                                  .about {
-                                                     max-width: 800px;
+                                                     max-width: 600px;
                                                      margin: 0 0 0;
                                                      padding: 60px 0px 10px;
                                                  }
                                                  
                                                  .icons {
                                                      height: 50px;
-                                                     justify-content: center;
                                                  }
                                                  
                                                  .post-date {
@@ -215,16 +215,6 @@
                                                  }
                                                  
                                                  @media only screen and (max-device-width: 480px) {
-                                                     h1,
-                                                     h2,
-                                                     h3,
-                                                     h4 {
-                                                         color: #ff00ea;
-                                                         text-align: center;
-                                                     }
-                                                     .post-date {
-                                                         text-align: center;
-                                                     }
                                                      .about-author {
                                                          display: grid;
                                                          justify-content: center;
@@ -247,24 +237,10 @@
                                                          width: 200px;
                                                          height: auto;
                                                          float: none;
-                                                         display: block;
-                                                         margin-left: auto;
-                                                         margin-right: auto;
                                                      }
-                                                     #columnone {
-                                                         display: block;
-                                                         vertical-align: top;
-                                                         justify-content: center;
-                                                         margin-left: auto;
-                                                         margin-right: auto;
-                                                     }
-                                                     #columntwo {
-                                                         display: block;
-                                                         vertical-align: top;
-                                                         font-size: 8px;
-                                                         font-style: unset;
-                                                         justify-content: center;
-                                                         margin-left: auto;
-                                                         margin-right: auto;
+                                                     .postphoto {
+                                                         width: 320px;
+                                                         height: auto;
+                                                         padding: 0 20px 0 0;
                                                      }
                                                  }
