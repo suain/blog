@@ -16,7 +16,8 @@
                                                      .topimg {
                                                          width: 100px;
                                                          height: auto;
-                                                         margin: 0 0 50px 0;
+                                                         float: left;
+                                                         padding: 0 25px 0 0;
                                                      }
                                                      
                                                      .logo {
@@ -49,6 +50,15 @@
                                                          line-height: 1.5;
                                                      }
                                                      
+                                                     a {
+                                                         color: #ff00ea;
+                                                         text-decoration: none;
+                                                     }
+                                                     
+                                                     a:hover {
+                                                         color: rgb(0, 0, 0);
+                                                     }
+                                                     
                                                      .post {
                                                          max-width: 600px;
                                                          margin: 0 auto;
@@ -66,6 +76,7 @@
                                                          display: flex;
                                                          justify-content: center;
                                                          align-items: center;
+                                                         padding-top: 25px;
                                                      }
                                                      
                                                      .icons {
@@ -130,6 +141,10 @@
                                                          letter-spacing: 0.1em;
                                                      }
                                                      
+                                                     #footer a:hover {
+                                                         opacity: 40%;
+                                                     }
+                                                     
                                                      #topanker {
                                                          vertical-align: middle;
                                                          font-size: 12px;
@@ -139,15 +154,6 @@
                                                          display: flex;
                                                          justify-content: center;
                                                          padding: 30px 0 25px 0;
-                                                     }
-                                                     
-                                                     a {
-                                                         color: #ff00ea;
-                                                         text-decoration: none;
-                                                     }
-                                                     
-                                                     a:hover {
-                                                         color: rgb(0, 0, 0);
                                                      }
                                                      /* skillbar */
                                                      
@@ -224,12 +230,6 @@
                                                      }
                                                      
                                                      @media only screen and (max-device-width: 480px) {
-                                                         .about-author {
-                                                             display: grid;
-                                                             justify-content: center;
-                                                             align-items: center;
-                                                             padding: 0 20px 0 0;
-                                                         }
                                                          #logo {
                                                              padding-top: 20px;
                                                              width: auto;
