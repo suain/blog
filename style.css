@@ -116,6 +116,7 @@
                                                          text-align: block;
                                                          display: grid;
                                                          padding: 0 25px 0 0;
+                                                         font-size: small;
                                                      }
                                                      
                                                      #footer {
