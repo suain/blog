@@ -1,266 +1,266 @@
-                                                     /*kopieren ist stehlen*/
-                                                     
-                                                     @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-                                                     body {
-                                                         color: #555;
-                                                         margin: 0px;
-                                                         font-family: 'Montserrat', sans-serif;
-                                                         height: 100%;
-                                                         margin: 0;
-                                                         padding: 0;
-                                                     }
-                                                     
-                                                     #main {
-                                                         display: flex;
-                                                         justify-content: center;
-                                                         padding: 0 20px 0 20px;
-                                                     }
-                                                     
-                                                     #header {
-                                                         background-color: #ff00ea;
-                                                         height: 150px;
-                                                         display: flex;
-                                                         justify-content: center;
-                                                         align-items: center;
-                                                     }
-                                                     
-                                                     .topimg {
-                                                         width: 100px;
-                                                         height: auto;
-                                                         float: left;
-                                                         padding: 0 25px 0 0;
-                                                     }
-                                                     
-                                                     .about {
-                                                         max-width: 600px;
-                                                         padding: 60px 0px 10px;
-                                                     }
-                                                     
-                                                     #about-icons {
-                                                         display: flex;
-                                                         justify-content: center;
-                                                         align-items: center;
-                                                         padding-top: 25px;
-                                                     }
-                                                     
-                                                     .icons {
-                                                         height: 50px;
-                                                     }
-                                                     
-                                                     .logo {
-                                                         width: 100px;
-                                                         height: auto;
-                                                     }
-                                                     
-                                                     h1,
-                                                     h2,
-                                                     h3,
-                                                     h4 {
-                                                         color: #ff00ea;
-                                                         text-align: left;
-                                                     }
-                                                     
-                                                     p {
-                                                         line-height: 1.5;
-                                                     }
-                                                     
-                                                     a {
-                                                         color: #ff00ea;
-                                                         text-decoration: none;
-                                                     }
-                                                     
-                                                     a:hover {
-                                                         color: rgb(0, 0, 0);
-                                                     }
-                                                     
-                                                     .container {
-                                                         max-width: 600px;
-                                                         margin: 0 auto;
-                                                     }
-                                                     
-                                                     .post-date {
-                                                         color: #555;
-                                                         font-size: 12px;
-                                                         font-weight: lighter;
-                                                         text-transform: uppercase;
-                                                         letter-spacing: 0.1em;
-                                                     }
-                                                     
-                                                     .post-content {
-                                                         font-size: 15px;
-                                                     }
-                                                     
-                                                     .post {
-                                                         max-width: 600px;
-                                                         margin: 0 auto;
-                                                         padding: 40px 0 0 0;
-                                                         border-bottom: 1px dotted #555;
-                                                         text-align: justify;
-                                                     }
-                                                     
-                                                     .postimg {
-                                                         width: 200px;
-                                                         height: auto;
-                                                         padding: 0 20px 0 0;
-                                                         float: left;
-                                                     }
-                                                     
-                                                     .postphoto {
-                                                         width: 600px;
-                                                         height: auto;
-                                                         padding: 0 20px 0 0;
-                                                     }
-                                                     
-                                                     li.archivpost {
-                                                         border-bottom: 1px dotted #555;
-                                                         text-align: block;
-                                                         display: grid;
-                                                         padding: 0 25px 0 0;
-                                                         font-size: small;
-                                                     }
-                                                     
-                                                     #footer {
-                                                         background-color: #2f2f2f;
-                                                         padding: 5px 0 25px 0;
-                                                         height: 150px;
-                                                         text-align: center;
-                                                         position: sticky;
-                                                         bottom: 0;
-                                                     }
-                                                     
-                                                     #footer h4 {
-                                                         color: white;
-                                                         text-transform: uppercase;
-                                                         letter-spacing: 0.1em;
-                                                         text-align: center;
-                                                     }
-                                                     
-                                                     #footer p {
-                                                         color: white;
-                                                         text-align: center;
-                                                         font-size: 8px;
-                                                         padding: 25px 0 25px 0;
-                                                         font-weight: lighter;
-                                                         letter-spacing: 0.1em;
-                                                     }
-                                                     
-                                                     #footer a {
-                                                         color: #ff00ea;
-                                                         text-align: center;
-                                                         font-size: 12px;
-                                                         padding: 25px 0 25px 0;
-                                                         letter-spacing: 0.1em;
-                                                     }
-                                                     
-                                                     #footer a:hover {
-                                                         opacity: 40%;
-                                                     }
-                                                     
-                                                     #topanker {
-                                                         vertical-align: middle;
-                                                         font-size: 12px;
-                                                         letter-spacing: 0.1em;
-                                                         font-weight: lighter;
-                                                         font-style: normal;
-                                                         display: flex;
-                                                         justify-content: center;
-                                                         padding: 30px 0 25px 0;
-                                                     }
-                                                     /* skillbar */
-                                                     
-                                                     .skillbar {
-                                                         position: relative;
-                                                         display: block;
-                                                         margin-bottom: 15px;
-                                                         width: 100%;
-                                                         background: #eee;
-                                                         height: 35px;
-                                                         border-radius: 3px;
-                                                         -moz-border-radius: 3px;
-                                                         -webkit-border-radius: 3px;
-                                                         -webkit-transition: 0.4s linear;
-                                                         -moz-transition: 0.4s linear;
-                                                         -ms-transition: 0.4s linear;
-                                                         -o-transition: 0.4s linear;
-                                                         transition: 0.4s linear;
-                                                         -webkit-transition-property: width, background-color;
-                                                         -moz-transition-property: width, background-color;
-                                                         -ms-transition-property: width, background-color;
-                                                         -o-transition-property: width, background-color;
-                                                         transition-property: width, background-color;
-                                                     }
-                                                     
-                                                     .skillbar-title {
-                                                         position: absolute;
-                                                         top: 0;
-                                                         left: 0;
-                                                         font-weight: bold;
-                                                         font-size: 13px;
-                                                         color: #fff;
-                                                         background: #6adcfa;
-                                                         -webkit-border-top-left-radius: 3px;
-                                                         -webkit-border-bottom-left-radius: 4px;
-                                                         -moz-border-radius-topleft: 3px;
-                                                         -moz-border-radius-bottomleft: 3px;
-                                                         border-top-left-radius: 3px;
-                                                         border-bottom-left-radius: 3px;
-                                                     }
-                                                     
-                                                     .skillbar-title span {
-                                                         display: block;
-                                                         background: rgba(0, 0, 0, 0.1);
-                                                         padding: 0 20px;
-                                                         height: 35px;
-                                                         line-height: 35px;
-                                                         -webkit-border-top-left-radius: 3px;
-                                                         -webkit-border-bottom-left-radius: 3px;
-                                                         -moz-border-radius-topleft: 3px;
-                                                         -moz-border-radius-bottomleft: 3px;
-                                                         border-top-left-radius: 3px;
-                                                         border-bottom-left-radius: 3px;
-                                                     }
-                                                     
-                                                     .skillbar-bar {
-                                                         height: 35px;
-                                                         width: 0px;
-                                                         background: #6adcfa;
-                                                         border-radius: 3px;
-                                                         -moz-border-radius: 3px;
-                                                         -webkit-border-radius: 3px;
-                                                     }
-                                                     
-                                                     .skill-bar-percent {
-                                                         position: absolute;
-                                                         right: 10px;
-                                                         top: 0;
-                                                         font-size: 11px;
-                                                         height: 35px;
-                                                         line-height: 35px;
-                                                         color: #444;
-                                                         color: rgba(0, 0, 0, 0.4);
-                                                     }
-                                                     
-                                                     @media only screen and (max-device-width: 480px) {
-                                                         #logo {
-                                                             padding-top: 20px;
-                                                             width: auto;
-                                                             height: 100px;
-                                                             display: flex;
-                                                         }
-                                                         #header {
-                                                             display: grid;
-                                                             justify-content: center;
-                                                             align-items: center;
-                                                             padding: 0 0 20px 0;
-                                                         }
-                                                         .postimg {
-                                                             width: 100%;
-                                                             height: auto;
-                                                             float: none;
-                                                         }
-                                                         .postphoto {
-                                                             width: 100%;
-                                                             height: auto;
-                                                             padding: 0 0 20px 0;
-                                                         }
-                                                     }
+ /*kopieren ist stehlen*/
+ 
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+ body {
+     color: #555;
+     margin: 0px;
+     font-family: 'Montserrat', sans-serif;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ #main {
+     display: flex;
+     justify-content: center;
+     padding: 0 20px 0 20px;
+ }
+ 
+ #header {
+     background-color: #ff00ea;
+     height: 150px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .topimg {
+     width: 100px;
+     height: auto;
+     float: left;
+     padding: 0 25px 0 0;
+ }
+ 
+ .about {
+     max-width: 600px;
+     padding: 60px 0px 10px;
+ }
+ 
+ #about-icons {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 25px;
+ }
+ 
+ .icons {
+     height: 50px;
+ }
+ 
+ .logo {
+     width: 100px;
+     height: auto;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4 {
+     color: #ff00ea;
+     text-align: left;
+ }
+ 
+ p {
+     line-height: 1.5;
+ }
+ 
+ a {
+     color: #ff00ea;
+     text-decoration: none;
+ }
+ 
+ a:hover {
+     color: rgb(0, 0, 0);
+ }
+ 
+ .container {
+     max-width: 600px;
+     margin: 0 auto;
+ }
+ 
+ .post-date {
+     color: #555;
+     font-size: 12px;
+     font-weight: lighter;
+     text-transform: uppercase;
+     letter-spacing: 0.1em;
+ }
+ 
+ .post-content {
+     font-size: 15px;
+ }
+ 
+ .post {
+     max-width: 600px;
+     margin: 0 auto;
+     padding: 40px 0 0 0;
+     border-bottom: 1px dotted #555;
+     text-align: justify;
+ }
+ 
+ .postimg {
+     width: 200px;
+     height: auto;
+     padding: 0 20px 0 0;
+     float: left;
+ }
+ 
+ .postphoto {
+     width: 600px;
+     height: auto;
+     padding: 0 20px 0 0;
+ }
+ 
+ li.archivpost {
+     border-bottom: 1px dotted #555;
+     text-align: block;
+     display: grid;
+     padding: 0 25px 0 0;
+     font-size: small;
+ }
+ 
+ #footer {
+     background-color: #2f2f2f;
+     padding: 5px 0 1px 0;
+     height: 150px;
+     text-align: center;
+     position: sticky;
+     bottom: 0;
+ }
+ 
+ #footer h4 {
+     color: white;
+     text-transform: uppercase;
+     letter-spacing: 0.1em;
+     text-align: center;
+ }
+ 
+ #footer p {
+     color: white;
+     text-align: center;
+     font-size: 8px;
+     padding: 25px 0 25px 0;
+     font-weight: lighter;
+     letter-spacing: 0.1em;
+ }
+ 
+ #footer a {
+     color: #ff00ea;
+     text-align: center;
+     font-size: 12px;
+     padding: 25px 0 25px 0;
+     letter-spacing: 0.1em;
+ }
+ 
+ #footer a:hover {
+     opacity: 40%;
+ }
+ 
+ #topanker {
+     vertical-align: middle;
+     font-size: 12px;
+     letter-spacing: 0.1em;
+     font-weight: lighter;
+     font-style: normal;
+     display: flex;
+     justify-content: center;
+     padding: 30px 0 25px 0;
+ }
+ /* skillbar */
+ 
+ .skillbar {
+     position: relative;
+     display: block;
+     margin-bottom: 15px;
+     width: 100%;
+     background: #eee;
+     height: 35px;
+     border-radius: 3px;
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -webkit-transition: 0.4s linear;
+     -moz-transition: 0.4s linear;
+     -ms-transition: 0.4s linear;
+     -o-transition: 0.4s linear;
+     transition: 0.4s linear;
+     -webkit-transition-property: width, background-color;
+     -moz-transition-property: width, background-color;
+     -ms-transition-property: width, background-color;
+     -o-transition-property: width, background-color;
+     transition-property: width, background-color;
+ }
+ 
+ .skillbar-title {
+     position: absolute;
+     top: 0;
+     left: 0;
+     font-weight: bold;
+     font-size: 13px;
+     color: #fff;
+     background: #6adcfa;
+     -webkit-border-top-left-radius: 3px;
+     -webkit-border-bottom-left-radius: 4px;
+     -moz-border-radius-topleft: 3px;
+     -moz-border-radius-bottomleft: 3px;
+     border-top-left-radius: 3px;
+     border-bottom-left-radius: 3px;
+ }
+ 
+ .skillbar-title span {
+     display: block;
+     background: rgba(0, 0, 0, 0.1);
+     padding: 0 20px;
+     height: 35px;
+     line-height: 35px;
+     -webkit-border-top-left-radius: 3px;
+     -webkit-border-bottom-left-radius: 3px;
+     -moz-border-radius-topleft: 3px;
+     -moz-border-radius-bottomleft: 3px;
+     border-top-left-radius: 3px;
+     border-bottom-left-radius: 3px;
+ }
+ 
+ .skillbar-bar {
+     height: 35px;
+     width: 0px;
+     background: #6adcfa;
+     border-radius: 3px;
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+ }
+ 
+ .skill-bar-percent {
+     position: absolute;
+     right: 10px;
+     top: 0;
+     font-size: 11px;
+     height: 35px;
+     line-height: 35px;
+     color: #444;
+     color: rgba(0, 0, 0, 0.4);
+ }
+ 
+ @media only screen and (max-device-width: 480px) {
+     #logo {
+         padding-top: 20px;
+         width: auto;
+         height: 100px;
+         display: flex;
+     }
+     #header {
+         display: grid;
+         justify-content: center;
+         align-items: center;
+         padding: 0 0 20px 0;
+     }
+     .postimg {
+         width: 100%;
+         height: auto;
+         float: none;
+     }
+     .postphoto {
+         width: 100%;
+         height: auto;
+         padding: 0 0 20px 0;
+     }
+ }
