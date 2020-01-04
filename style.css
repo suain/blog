@@ -1,4 +1,4 @@
- /*kopieren ist stehlen*/
+  /*kopieren ist stehlen*/
  
  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
  body {
@@ -240,6 +240,46 @@
      color: #444;
      color: rgba(0, 0, 0, 0.4);
  }
+ /* Portfolio Gallery */
+ 
+ .cell {
+     margin: 1rem;
+     overflow: hidden;
+ }
+ 
+ .cell img {
+     display: block;
+     transition: transform .9s ease;
+ }
+ 
+ .cell:hover img {
+     transform: scale(1.5);
+ }
+ 
+ .responsive-image {
+     max-width: 100%;
+ }
+ 
+ @media screen and (min-width: 600px) {
+     .grid {
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+     }
+     .cell {
+         width: calc(50% - 2rem);
+     }
+ }
+ 
+ @media screen and (min-width: 1000px) {
+     .container {
+         max-width: 1800px;
+         margin: 0 auto;
+     }
+     .cell {
+         width: calc(33.33333% - 2rem);
+     }
+ }
  
  @media only screen and (max-device-width: 480px) {
      #logo {
@@ -265,3 +305,24 @@
          padding: 0 0 20px 0;
      }
  }
+ @media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444;
+    color: #e4e4e4;
+  }
+  img {
+    filter: grayscale(30%);
+  }
+  .postimg {
+  filter: grayscale(30%);
+  }
+  .postphoto {
+  filter: grayscale(30%);
+  }
+  .skillbar {
+  background-color: #e4e4e4;
+  }
+  .post-date {
+     color: #fff;
+ }
+}
