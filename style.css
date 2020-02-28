@@ -11,7 +11,7 @@
     }
     
     #main {
-        display: flex;
+        display: block;
         justify-content: center;
         padding: 0 20px 0 20px;
     }
@@ -63,6 +63,7 @@
     p {
         line-height: 1.5;
         text-align: block;
+        margin-block-end: 0.5;
     }
     
     a {
@@ -76,6 +77,10 @@
     
     .container {
         max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .post-title {
         margin: 0 auto;
     }
     
@@ -288,7 +293,6 @@
             display: grid;
             justify-content: center;
             align-items: center;
-            padding: 0 0 20px 0;
         }
         .postimg {
             width: 100%;
