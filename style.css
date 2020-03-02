@@ -273,7 +273,7 @@
     }
     
     @media screen and (min-width: 1000px) {
-        .container {
+        .container-gallery {
             max-width: 1800px;
             margin: 0 auto;
         }
