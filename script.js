@@ -20,10 +20,14 @@ jQuery(document).ready(function() {
             rootMargin: "0px",
             threshold: 0,
             load: function(t) {
-                if ("picture" === t.nodeName.toLowerCase()) { var e = document.createElement("img");
-                    d && t.getAttribute("data-iesrc") && (e.src = t.getAttribute("data-iesrc")), t.getAttribute("data-alt") && (e.alt = t.getAttribute("data-alt")), t.append(e) }
-                if ("video" === t.nodeName.toLowerCase() && !t.getAttribute("data-src") && t.children) { for (var r = t.children, a = void 0, o = 0; o <= r.length - 1; o++)(a = r[o].getAttribute("data-src")) && (r[o].src = a);
-                    t.load() }
+                if ("picture" === t.nodeName.toLowerCase()) {
+                    var e = document.createElement("img");
+                    d && t.getAttribute("data-iesrc") && (e.src = t.getAttribute("data-iesrc")), t.getAttribute("data-alt") && (e.alt = t.getAttribute("data-alt")), t.append(e)
+                }
+                if ("video" === t.nodeName.toLowerCase() && !t.getAttribute("data-src") && t.children) {
+                    for (var r = t.children, a = void 0, o = 0; o <= r.length - 1; o++)(a = r[o].getAttribute("data-src")) && (r[o].src = a);
+                    t.load()
+                }
                 if (t.getAttribute("data-src") && (t.src = t.getAttribute("data-src")), t.getAttribute("data-srcset") && t.setAttribute("srcset", t.getAttribute("data-srcset")), t.getAttribute("data-background-image")) t.style.backgroundImage = "url('" + t.getAttribute("data-background-image").split(",").join("'),url('") + "')";
                 else if (t.getAttribute("data-background-image-set")) {
                     var i = t.getAttribute("data-background-image-set").split(","),
@@ -37,7 +41,8 @@ jQuery(document).ready(function() {
 
     function l(t) { t.setAttribute("data-loaded", !0) }
     var b = function(t) { return "true" === t.getAttribute("data-loaded") };
-    return function() { var r, a, o = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : ".lozad",
+    return function() {
+        var r, a, o = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : ".lozad",
             t = 1 < arguments.length && void 0 !== arguments[1] ? arguments[1] : {},
             e = Object.assign({}, c, t),
             i = e.root,
@@ -45,6 +50,11 @@ jQuery(document).ready(function() {
             d = e.threshold,
             u = e.load,
             s = e.loaded,
-            g = void 0; return "undefined" != typeof window && window.IntersectionObserver && (g = new IntersectionObserver((r = u, a = s, function(t, e) { t.forEach(function(t) {
-                (0 < t.intersectionRatio || t.isIntersecting) && (e.unobserve(t.target), b(t.target) || (r(t.target), l(t.target), a(t.target))) }) }), { root: i, rootMargin: n, threshold: d })), { observe: function() { for (var t = function(t) { var e = 1 < arguments.length && void 0 !== arguments[1] ? arguments[1] : document; return t instanceof Element ? [t] : t instanceof NodeList ? t : e.querySelectorAll(t) }(o, i), e = 0; e < t.length; e++) b(t[e]) || (g ? g.observe(t[e]) : (u(t[e]), l(t[e]), s(t[e]))) }, triggerLoad: function(t) { b(t) || (u(t), l(t), s(t)) }, observer: g } }
+            g = void 0;
+        return "undefined" != typeof window && window.IntersectionObserver && (g = new IntersectionObserver((r = u, a = s, function(t, e) {
+            t.forEach(function(t) {
+                (0 < t.intersectionRatio || t.isIntersecting) && (e.unobserve(t.target), b(t.target) || (r(t.target), l(t.target), a(t.target)))
+            })
+        }), { root: i, rootMargin: n, threshold: d })), { observe: function() { for (var t = function(t) { var e = 1 < arguments.length && void 0 !== arguments[1] ? arguments[1] : document; return t instanceof Element ? [t] : t instanceof NodeList ? t : e.querySelectorAll(t) }(o, i), e = 0; e < t.length; e++) b(t[e]) || (g ? g.observe(t[e]) : (u(t[e]), l(t[e]), s(t[e]))) }, triggerLoad: function(t) { b(t) || (u(t), l(t), s(t)) }, observer: g }
+    }
 });
