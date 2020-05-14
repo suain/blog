@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="Alte Einträge sind hier im Archiv zu finden.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Archiv</title>
+    <title>Kontakt</title>
 </head>
 
 <body>
@@ -26,27 +26,18 @@
         <div id="content">
             <div class="container">
                 <div class="post-content">
-                    <h1>2020</h1>
-                    <li class="archivpost">
-                        <p>2020-03-03 <a href="index.html#2020-03-03">Salesforce Commerce Cloud Basics - Thema: Out of the Box Monitoring</a></p>
-                    </li>
-                    <li class="archivpost">
-                        <p>2020-02-25 <a href="index.html#2020-02-25">Salesforce Commerce Cloud Basics -  Thema: POD, Status und Wartung</a></p>
-                        </li<br>
-                        <h1>2019</h1>
-                        <li class="archivpost">
-                            <p>2019-12-25 <a href="index.html#2019-12-25">2020 Vorsätze</a></p>
-                        </li>
-                        <li class="archivpost">
-                            <p>2019-12-17 <a href="index.html#2019-12-17">Fotografie Overload</a></p>
-                        </li>
-                        <li class="archivpost">
-                            <p>2019-12-13 <a href="index.html#2019-12-13">Webprogrammierung der Anfang</a></p>
-                        </li>
-                        <li class="archivpost">
-                            <p>2019-12-12 <a href="index.html#2019-12-12">Hello Wold</a></p>
-                        </li>
-
+                    <p>
+                        <div id="kontakt">
+                            <form method="post" action="sendmail.php">
+                                <label><input type="text" name="Name" placeholder="Deine Name" required="required"></label>
+                                <label> <input type="email" name="Email" placeholder="deine@email.de" required="required"></label>
+                                <br>
+                    </p>
+                    <label><textarea name="nachricht" id="nachricht" rows="10" cols="43" placeholder="Deine Nachricht" required="required"></textarea></label>
+                    <br>
+                    <p>Ich stimme der <a href="impressum.html" rel=”nofollow” rel="noindex">Datenschutzbestimmung</a> zu <label><input type="checkbox" name="dsgvo" required="required"></label></p>
+                    <input type="submit" value="Senden"></form>
+                    </div>
                 </div>
             </div>
         </div>
