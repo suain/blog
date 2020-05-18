@@ -10,6 +10,36 @@ body {
     padding: 0;
 }
 
+
+/*
+#INFO {
+    position: fixed;
+    font-size: 50px;
+    opacity: 0.1;
+    padding: 0 25px 0 0;
+    float: right;
+    right: 0;
+    z-index: 1;
+}
+*/
+
+#snap {
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0;
+    z-index: -1000;
+    height: 150px;
+    background-color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.snapimg {
+    width: auto;
+    height: 300px;
+    text-align: center;
+}
+
 #main {
     display: block;
     justify-content: center;
@@ -334,6 +364,9 @@ li.archivpost {
         height: auto;
         padding: 0 0 20px 0;
     }
+    #snapindex {
+        font-size: 25px;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -361,5 +394,12 @@ li.archivpost {
     }
     .post-date {
         color: #fff;
+    }
+    #snap {
+        background-color: #444;
+    }
+    .snapimg {
+        opacity: 0.7;
+        background-color: #444;
     }
 }
