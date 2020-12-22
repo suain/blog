@@ -10,19 +10,6 @@ body {
     padding: 0;
 }
 
-
-/*
-#INFO {
-    position: fixed;
-    font-size: 50px;
-    opacity: 0.1;
-    padding: 0 25px 0 0;
-    float: right;
-    right: 0;
-    z-index: 1;
-}
-*/
-
 #snap {
     position: sticky;
     position: -webkit-sticky;
