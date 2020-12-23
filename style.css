@@ -34,7 +34,7 @@ body {
 }
 
 #header {
-    background-color: #ff00ea;
+    background-color: #48EDDD;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -171,7 +171,7 @@ h1,
 h2,
 h3,
 h4 {
-    color: #ff00ea;
+    color: #48EDDD;
     text-align: left;
 }
 
@@ -182,7 +182,7 @@ p {
 }
 
 a {
-    color: #ff00ea;
+    color: #48EDDD;
     text-decoration: none;
 }
 
@@ -266,7 +266,7 @@ li.archivpost {
 }
 
 #footer a {
-    color: #ff00ea;
+    color: #48EDDD;
     text-align: center;
     font-size: 12px;
     padding: 25px 0 0 0;
