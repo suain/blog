@@ -48,6 +48,78 @@ body {
     padding: 0 25px 0 0;
 }
 
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate( 0.0deg)
+    }
+    10% {
+        transform: rotate(14.0deg)
+    }
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8.0deg)
+    }
+    30% {
+        transform: rotate(14.0deg)
+    }
+    40% {
+        transform: rotate(-4.0deg)
+    }
+    50% {
+        transform: rotate(10.0deg)
+    }
+    60% {
+        transform: rotate( 0.0deg)
+    }
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate( 0.0deg)
+    }
+}
+
+.beat {
+    font-size: 1.5em;
+    animation-name: beat-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+
+@keyframes beat-animation {
+    // scale down and scale up faster in irregular intervals to get the throbbing effect
+    0% {
+        transform: scale(0.8);
+    }
+    5% {
+        transform: scale(0.9);
+    }
+    10% {
+        transform: scale(0.8);
+    }
+    15% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+}
+
 .about {
     max-width: 600px;
     padding: 60px 0px 10px;
@@ -170,7 +242,7 @@ li.archivpost {
 
 #footer {
     background-color: #2f2f2f;
-    padding: 5px 0 1px 0;
+    padding: 5px 0 1px 0px;
     height: 150px;
     text-align: center;
     position: sticky;
